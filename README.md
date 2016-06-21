@@ -13,13 +13,13 @@ Multivariate Welch t-test on distances
   * `plot50.R` -- generation of figures and tables for simulation study with sample sizes in the vicinity of 50 per group
   * `STAT.R` -- analysis of sub-therapeutic antibiotic treatment data
   * `Psoriasis.R`	-- analysis of psoriasis skin microbiome data
-2. `data/` -- Data for applications
+2. `data.zip` -- Data for applications
   * `obesity_mapping.txt` -- metadata for STAT dataset
   * `seqs_otu_table.txt` -- abundace table for STAT dataset
   * `PsoriasisMetadata.txt`	-- metadata for psoriasis dataset
   * `otu_table.txt` -- abundace table for psoriasis dataset
 3. `results/`
-  * `simulation_results2.txt` -- main simulation results
-  * `simulation10_results.txt` -- simulation results for sample sizes in the vicinity of 10 per group
-  * `simulation50_results.txt` -- simulation results for sample sizes in the vicinity of 50 per group
+  * `simulation_results2.txt.zip` -- main simulation results
+  * `simulation10_results.txt.zip` -- simulation results for sample sizes in the vicinity of 10 per group
+  * `simulation50_results.txt.zip` -- simulation results for sample sizes in the vicinity of 50 per group
 
