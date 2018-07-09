@@ -45,8 +45,8 @@ WT = function(dm, f){
   s1 = SSW1/(ns[1]-1)
   s2 = SSW2/(ns[2]-1)
   
-  t.stat = (sqrt((ns[1]+ns[2])/(ns[1]*ns[2])))*sqrt(SST-SSW)/sqrt(s1/ns[1] + s2/ns[2])
-  t.stat
+  t2.stat = (((ns[1]+ns[2])/(ns[1]*ns[2])))*(SST-SSW)/(s1/ns[1] + s2/ns[2])
+  t2.stat
 }
 
 WT.test = function(dm, f, nrep=999){
