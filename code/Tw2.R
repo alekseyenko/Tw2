@@ -25,7 +25,7 @@ dist.cohen.d = function(dm, f){
   mean.diff = sqrt(WT.mean(dm, f))
   lev = levels(f)
   s1 = dist.sigma2(as.matrix(dm)[f==lev[1], f == lev[1]])
-  s2 = dist.sigma2(as.matrix(dm)[f==lev[1], f == lev[1]])
+  s2 = dist.sigma2(as.matrix(dm)[f==lev[2], f == lev[2]])
   ns=table(f)
   mean.diff/sqrt(((ns[1]-1)*s1 + (ns[2]-1)*s2)/(sum(ns)-2))
 }
