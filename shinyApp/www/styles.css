@@ -1,0 +1,42 @@
+.content {
+  overflow-y: auto;
+  overflow-x: auto;
+  #max-height: 600px;
+}
+
+table.dataTable {
+  border: thin solid silver;
+  overflow-x: auto;
+  overflow-y: auto;
+} 
+
+#sections #sections-main {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.tabbable {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.skin-purple .sidebar-menu > li.active > a, .skin-purple .sidebar-menu {
+}
+
+.skin-purple .sidebar-menu > li.active  > a {
+  background-color: #555299;
+  color: white;
+}
+
+.skin-purple .left-side, .skin-purple .main-sidebar, .skin-purple .wrapper {
+  background-color: #555299;
+}
+
+#numTests, #dataLoaded {
+  background-color: #555299;
+  color: #555299;
+  //background-color: lavender ; 
+  //color: rebeccapurple;
+  //color: yellow;
+  margin-left: 20px;
+}
